@@ -1,0 +1,29 @@
+
+.logo {
+    width: 100px;
+}
+
+.nav_background { 
+    background-color: #353A40
+}
+
+.h2_header {
+    color:white;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.nav_letter_white {
+    color: white;
+    font-family: 'Anek Telugu', sans-serif;
+    
+}
+
+.nav_letter_gray {
+    color: gray;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+.nav_letter_green {
+    color: greenyellow;
+    font-family: 'Anek Telugu', sans-serif;
+}
