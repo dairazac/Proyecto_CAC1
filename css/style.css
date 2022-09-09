@@ -1,26 +1,29 @@
 * {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
-    width: 100px;
+    width: 8vw;
     position: relative;
     left: 5vw;
+    top: 0.5vw;
 }
 
 .nav_background { 
+    height: 6vw;
+    width: 100%;
     background-color: #353A40;
+    position: relative;
     
-}
-
-html {
-    font-family: 'Anek Telugu', sans-serif;
 }
 
 .h2_header {
     color:white;
+    font-size: 1.6vw;
+    font-weight: 100;
     position: absolute;
-    left: 15vw;
+    left: 13vw;
     top: 1.5vw;
 }
 
@@ -40,26 +43,47 @@ html {
 .nav_letter_gray, .nav_letter_green, .nav_letter_white {
     text-decoration: none;
     position: relative;
-    left: 50vw;
+    left: 45vw;
     top: -3vw;
 
+}
+
+.h2_header, .logo, .nav_background, .nav_letter_gray, .nav_letter_green, .nav_letter_white, .p_h1, .mainbutton_green, .mainbutton_white, h1 {
+    z-index: 20;
 }
 
 .fondo_ba, .fondo_honolulu {
     width: 100%;
 }
 
+.fondo_ba {
+    position: relative;
+    top: -10vw;
+    z-index: 10;
+}
+
 h1 {
     color: white;
+    font-size: 2.5vw;
     position: absolute;
-    top: 30vw;
-    left: 79vw;
+    top: 20vw;
+    left: 78vw;
 }
 
 .p_h1 {
     color: rgb(255, 255, 255);
     position: relative;
-    top: -30vw;
+    top: -38vw;
+    left: -3vw;
     text-align: end;
     padding-right: 5vw;
 }
+
+.mainbutton_white, .mainbutton_green {
+    position: relative;
+    top: -30vw;
+    left: 75vw;
+    text-decoration: none;
+    color: #fff;
+}
+
