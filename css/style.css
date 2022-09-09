@@ -1,29 +1,65 @@
+* {
+    margin: 0;
+}
 
 .logo {
     width: 100px;
+    position: relative;
+    left: 5vw;
 }
 
 .nav_background { 
-    background-color: #353A40
+    background-color: #353A40;
+    
+}
+
+html {
+    font-family: 'Anek Telugu', sans-serif;
 }
 
 .h2_header {
     color:white;
-    font-family: 'Anek Telugu', sans-serif;
+    position: absolute;
+    left: 15vw;
+    top: 1.5vw;
 }
 
 .nav_letter_white {
     color: white;
-    font-family: 'Anek Telugu', sans-serif;
     
 }
 
 .nav_letter_gray {
     color: gray;
-    font-family: 'Anek Telugu', sans-serif;
 }
 
 .nav_letter_green {
-    color: greenyellow;
-    font-family: 'Anek Telugu', sans-serif;
+    color: #29a744;
+}
+
+.nav_letter_gray, .nav_letter_green, .nav_letter_white {
+    text-decoration: none;
+    position: relative;
+    left: 50vw;
+    top: -3vw;
+
+}
+
+.fondo_ba, .fondo_honolulu {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 30vw;
+    left: 79vw;
+}
+
+.p_h1 {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -30vw;
+    text-align: end;
+    padding-right: 5vw;
 }
