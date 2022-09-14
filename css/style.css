@@ -3,87 +3,110 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.logo {
-    width: 8vw;
-    position: relative;
-    left: 5vw;
-    top: 0.5vw;
-}
-
-.nav_background { 
-    height: 6vw;
-    width: 100%;
+.header_flex {
+    height: 15vh;
     background-color: #353A40;
-    position: relative;
-    
+    display: flex;
 }
 
-.h2_header {
-    color:white;
-    font-size: 1.6vw;
-    font-weight: 100;
-    position: absolute;
-    left: 13vw;
-    top: 1.5vw;
-}
-
-.nav_letter_white {
+.header_logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 3rem;
     color: white;
-    
 }
 
-.nav_letter_gray {
-    color: gray;
+.img_logo {
+    width: 22%;
+}
+.title_logo {
+    font-size: 1.2rem;
+    font-weight: lighter;
 }
 
-.nav_letter_green {
-    color: #29a744;
-}
-
-.nav_letter_gray, .nav_letter_green, .nav_letter_white {
-    text-decoration: none;
-    position: relative;
-    left: 45vw;
-    top: -3vw;
-
-}
-
-.h2_header, .logo, .nav_background, .nav_letter_gray, .nav_letter_green, .nav_letter_white, .p_h1, .mainbutton_green, .mainbutton_white, h1 {
-    z-index: 20;
-}
-
-.fondo_ba, .fondo_honolulu {
+.img_main {
     width: 100%;
 }
 
-.fondo_ba {
-    position: relative;
-    top: -10vw;
-    z-index: 10;
+.header_links {
+    width: 70%;
+    padding-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-h1 {
-    color: white;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 20vw;
-    left: 78vw;
-}
-
-.p_h1 {
-    color: rgb(255, 255, 255);
-    position: relative;
-    top: -38vw;
-    left: -3vw;
-    text-align: end;
-    padding-right: 5vw;
-}
-
-.mainbutton_white, .mainbutton_green {
-    position: relative;
-    top: -30vw;
-    left: 75vw;
+.link {
     text-decoration: none;
-    color: #fff;
+    font-size: 1rem;
+    color: rgb(192, 192, 192);
 }
 
+.section_dividida {
+    display: flex;
+    height: 70vh;
+}
+
+.contenido_izq {
+    background-image: url("../assets/imagenes/honolulu.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+.contenido_der {
+    height: 100%;
+    width: 50%;
+    background-color: #353A40;
+    color: white;
+    font-size: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section_tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.padre_tarjetas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas_flex {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    width: 30%;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 10px;
+}
+
+.tarjeta_parrafo {
+    width: 80%;
+}
+
+.tarjeta_img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tarjeta_contenido {
+    padding: 1rem;
+}
+
+.titulo_tarjetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

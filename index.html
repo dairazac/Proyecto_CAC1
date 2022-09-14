@@ -19,66 +19,88 @@
 
     <body>
         
-        <header>
-            <div class="nav_background">
-                <img class="logo" src="./assets/imagenes/codoacodo.png" alt="Logo Codo a Codo" loading="lazy">
-                    <h2 class="h2_header">Conf Bs As </h2>
-                    <nav>
-                        <a class="nav_letter_white" href="#">La conferencia</a>
-                        <a class="nav_letter_gray" href="./pages/losoradores.html">Los oradores</a>
-                        <a class="nav_letter_gray" href="./pages/lugaryfecha.html">El lugar y la fecha</a>
-                        <a class="nav_letter_gray" href="./pages/contacto.html">Conviértete en orador</a>
-                        <a class="nav_letter_green" href="./pages/comprartickets.html">Comprar tickets</a>
-                    </nav> 
-            </div>        
+        <header class="header_flex">
+            <div class="header_logo">
+                <img class="img_logo" src="./assets/imagenes/codoacodo.png" alt="Logo Codo a Codo" loading="lazy">
+                <h2 class="title_logo">Conf Bs As </h2>
+            </div>
+            <nav class="header_links">
+                <a class="link" href="#">La conferencia</a>
+                <a class="link" href="./pages/losoradores.html">Los oradores</a>
+                <a class="link" href="./pages/lugaryfecha.html">El lugar y la fecha</a>
+                <a class="link" href="./pages/contacto.html">Conviértete en orador</a>
+                <a class="link" href="./pages/comprartickets.html">Comprar tickets</a>
+            </nav>     
         </header>
 
         <main>
             <section>
                 <div>
-                    <img src="./assets/imagenes/ba1.jpg" alt="Imagen de Buenos Aires" class="fondo_ba">
+                    <img class="img_main" src="./assets/imagenes/ba1.jpg" alt="Imagen de Buenos Aires">
                     <h1>Conf Bs As</h1>
-                    <p class="p_h1">Bs As llega por primera vez a Argentina. Un evento para compartir con <br> nuestra comunidad el conocimiento y experiencia de los expertos que <br> estan creando el futuro de internet. Ven a conocer a miembros del <br>evento, a otros estudiantes de Codo a Codo y los oradores de primer <br>nivel que tenemos para ti. Te esperamos!</p>
-                    <a class="mainbutton_white" href="./pages/contacto.html">Quiero ser orador</a>
-                    <a class="mainbutton_green" href="./pages/comprartickets.html">Comprar tickets</a>
+                    <p>Bs As llega por primera vez a Argentina. Un evento para compartir con <br> nuestra comunidad el conocimiento y experiencia de los expertos que <br> estan creando el futuro de internet. Ven a conocer a miembros del <br>evento, a otros estudiantes de Codo a Codo y los oradores de primer <br>nivel que tenemos para ti. Te esperamos!</p>
+                    <a href="./pages/contacto.html">Quiero ser orador</a>
+                    <a href="./pages/comprartickets.html">Comprar tickets</a>
                 </div>
             </section>
         </main>
 
-        <section>
-
-            <h2>Conoce a los Oradores</h2>
+        <section class="section_tarjetas">
+            <div class="titulo_tarjetas">
+                <h6 style="font-weight: lighter;" >CONOCE A LOS</h6>
+                <h2>ORADORES</h2>
+            </div>
             
-            <div>
-                <img src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy" width="300">
-                <h3>Steve Jobs</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
-                    praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
-                    soluta?</p>
-            </div>
-        
-            <div>
-                <img src="./assets/imagenes/bill.jpg" alt="Foto de Bill Gates" loading="lazy"  width="300">
-                <h3>Bill Gates</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
-                    praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
-                    soluta?</p>
-            </div>
-        
-            <div>
-                <img src="./assets/imagenes/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy" width="300">
-                <h3>Ada Lovelace</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
-                    praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
-                    soluta?</p>
+            <div class="padre_tarjetas">
+                <div class="tarjetas_flex">
+                    <div class="tarjeta">
+                        <img class="tarjeta_img" src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy" width="300">
+                        <div class="tarketa_contenido">
+                            <h3>Steve Jobs</h3>
+                            <div class="tarjeta_parrafo">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
+                                praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
+                                soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="tarjeta">
+                        <img class="tarjeta_img" src="./assets/imagenes/bill.jpg" alt="Foto de Bill Gates" loading="lazy"  width="300">
+                        <div class="tarjeta_contenido">
+                            <h3>Bill Gates</h3>
+                            <div class="tarjeta_parrafo">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
+                                praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
+                                soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="tarjeta">
+                        <img class="tarjeta_img" src="./assets/imagenes/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy" width="300">
+                        <div class="tarjeta_contenido">
+                            <h3>Ada Lovelace</h3>
+                            <div class="tarjeta_parrafo">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
+                                praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
+                                soluta?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </section>
 
-        <section>
+        <section class="section_dividida">
 
-            <div>
-                <img src="./assets/imagenes/honolulu.jpg" alt="Imagen de Honolulu" class="fondo_honolulu">
+            <div class="contenido_izq">
+
+            </div>
+
+            <div class="contenido_der">
                 <h3>Bs.As. Octubre</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam dignissimos officia assumenda saepe ipsa dolor vero! Similique, quam aliquam accusantium suscipit sit, ex laborum nulla debitis ratione praesentium aut! Omnis!</p>
             </div>
