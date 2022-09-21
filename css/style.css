@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .header_flex {
@@ -62,9 +62,9 @@ h1 {
 }
 
 .boton_tickets {
-    border: 1px solid green;
+    border: 1px solid #008000;
     padding: 10px;
-    background-color: green;
+    background-color: #008000;
     color: #ffffff;
     text-decoration: none;
     border-radius: 10px;
@@ -85,21 +85,92 @@ h1 {
 }
 
 .color_verde {
-    color: green;
+    color: #008000;
 }
 
 .color_blanco {
     color: white;
 }
 
+.section_titulo {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+
+.padre_tarjetas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.tarjetas_flex {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjeta {
+    width: 30%;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+}
+
+.tarjeta_parrafo {
+    width: 90%;
+    font-size: 0.7rem;
+    padding-top: 1rem;
+}
+
+.tarjeta_img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.tarjeta_contenido {
+    padding: 1rem;
+}
+
+.orador_caja {
+    color: #ffffff;
+    font-size: .6rem;
+    display: inline-block;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.fondo_yellow {
+    background-color: #ffc104;
+    color: black;
+}
+
+.fondo_cian {
+    background-color: #17a2b7;
+}
+
+.fondo_gris {
+    background-color: #6c757e;
+}
+
+.fondo_rojo {
+    background-color: #dd3546;
+}
+
 .section_dividida {
     display: flex;
     height: 60vh;
+    margin-bottom: 1rem;
 }
 
 .contenido_izq {
     height: 100%;
     width: 50%;
+    margin: 1px;
     background-image: url("../assets/imagenes/honolulu.jpg");
     background-size: cover;
 }
@@ -115,7 +186,7 @@ h1 {
     align-items: flex-start;
 }
 
-.section_titulo {
+.titulo_der {
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 1.5rem;
@@ -138,55 +209,7 @@ h1 {
     left: 1rem;
 }
 
-.section_tarjetas {
-    padding-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.titulo_tarjetas {
-    font-weight: lighter;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: rgba(0, 0, 0, 0.877);
-}
-
-.padre_tarjetas {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tarjetas_flex {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.tarjeta {
-    width: 30%;
-    border: 1px solid rgb(190, 190, 190);
-    border-radius: 10px;
-}
-
-.tarjeta_parrafo {
-    width: 90%;
-    font-size: 0.7rem;
-}
-
-.tarjeta_img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-.tarjeta_contenido {
-    padding: 1rem;
-}
-
-.titulo_tarjetas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h6 {
+    font-weight: 500;
+    color: black;
 }
