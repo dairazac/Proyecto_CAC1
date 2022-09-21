@@ -5,16 +5,18 @@
 
 .header_flex {
     height: 12vh;
+    width: 100%;
     background-color: #353A40;
     display: flex;
+    position: fixed;
 }
 
 .header_logo {
-    display: flex;
     align-items: center;
     width: 50%;
     padding-left: 3rem;
     color: white;
+    display: inline-flex;
 }
 
 .img_logo {
