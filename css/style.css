@@ -4,7 +4,6 @@
 }
 
 .header_flex {
-    height: 12vh;
     width: 100%;
     background-color: #353A40;
     display: flex;
@@ -13,14 +12,14 @@
 
 .header_logo {
     align-items: center;
-    width: 50%;
+    width: 40%;
     padding-left: 3rem;
     color: white;
     display: inline-flex;
 }
 
 .img_logo {
-    width: 22%;
+    width: 25%;
 }
 .title_logo {
     font-size: 1.2rem;
@@ -73,7 +72,7 @@ h1 {
 }
 
 .header_links {
-    width: 80%;
+    width: 60%;
     padding-right: 3rem;
     display: flex;
     align-items: center;
@@ -194,12 +193,16 @@ h1 {
     font-size: 1.5rem;
 }
 
-.section_parrafo {
+.parrafo_der {
     padding: 1rem;
  font-size: 0.8rem;
 }
 
-.section_boton {
+.padre_boton_der {
+    padding-left: 1rem;
+}
+
+.boton_der {
     font-size: 0.8rem;
     border: 1px solid white;
     padding: 5px;
@@ -207,11 +210,51 @@ h1 {
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
-    position: relative;
-    left: 1rem;
 }
 
 h6 {
     font-weight: 500;
     color: black;
+}
+
+.width50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bgcolorgradiente {
+    background: #1c3846;
+background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
+}
+
+.altofooter {
+    height: 15vh;
+}
+
+@media screen and (max-width:500px) {
+    
+    .header_flex{
+        flex-direction: column;
+    }
+
+    .header_logo {
+        width: 100%;
+        justify-content: space-evenly;
+        padding: initial;
+    }
+    .header_links {
+        width: 100%;
+        flex-direction: column;
+        padding: initial;
+    }
+
+    .div_main {
+        text-align: center;
+    }
+
+    .botones_main {
+        display: flex;
+        flex-direction: column;
+    }
+
 }

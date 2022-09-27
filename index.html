@@ -7,9 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Proyecto</title>
         <link rel="shorcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');</style>
@@ -24,9 +23,9 @@
             </div>
             <nav class="header_links">
                 <a class="link color_blanco" href="#">La conferencia</a>
-                <a class="link" href="./pages/losoradores.html">Los oradores</a>
-                <a class="link" href="./pages/lugaryfecha.html">El lugar y la fecha</a>
-                <a class="link" href="./pages/contacto.html">Conviértete en orador</a>
+                <a class="link" href="#oradores">Los oradores</a>
+                <a class="link" href="#lugaryfecha">El lugar y la fecha</a>
+                <a class="link" href="#contacto">Conviértete en orador</a>
                 <a class="link color_verde" href="./pages/comprartickets.html">Comprar tickets</a>
             </nav>     
         </header>
@@ -46,52 +45,46 @@
             </section>
         </main>
 
-        <section>
+        <section id="oradores">
             <div class="section_titulo">
                 <h6>CONOCE A LOS</h6>
                 <h2>ORADORES</h2>
             </div>
             
             <div class="padre_tarjetas">
-                <div class="tarjetas_flex">
+                <div class="tarjetas_flex" class="shadow-sm">
                     <div class="tarjeta">
-                        <img class="tarjeta_img" src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy" width="300">
+                        <img class="tarjeta_img" src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy">
                         <div class="tarjeta_contenido">
                             <h4 class="orador_caja fondo_yellow">JavaScript</h4>
                             <h4 class="orador_caja fondo_cian">React</h4>
                             <h3 class="orador_name">Steve Jobs</h3>
                             <div class="tarjeta_parrafo">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
-                                praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
-                                soluta?</p>
+                                <p>Steve Jobs ​​​​ es un empresario, diseñador industrial, magnate empresarial, propietario de medios e inversor estadounidense. Es cofundador y presidente ejecutivo de Apple​ y máximo accionista individual de The Walt Disney Company.</p>
                             </div>
                         </div>
                     </div>
                 
                     <div class="tarjeta">
-                        <img class="tarjeta_img" src="./assets/imagenes/bill.jpg" alt="Foto de Bill Gates" loading="lazy"  width="300">
+                        <img class="tarjeta_img" src="./assets/imagenes/bill.jpg" alt="Foto de Bill Gates" loading="lazy">
                         <div class="tarjeta_contenido">
                             <h4 class="orador_caja fondo_yellow">JavaScript</h4>
                             <h4 class="orador_caja fondo_cian">React</h4>
                             <h3 class="orador_name">Bill Gates</h3>
                             <div class="tarjeta_parrafo">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
-                                praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
-                                soluta?</p>
+                                <p>Bill Gates es un empresario, informático y filántropo estadounidense, conocido por haber creado y fundado junto con Paul Allen, la empresa Microsoft. De igual forma es conocido por haber creado, también con Paul Allen, el sistema operativo para computadoras Windows. </p>
                             </div>
                         </div>
                     </div>
                 
                     <div class="tarjeta">
-                        <img class="tarjeta_img" src="./assets/imagenes/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy" width="300">
+                        <img class="tarjeta_img" src="./assets/imagenes/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy">
                         <div class="tarjeta_contenido">
                             <h4 class="orador_caja fondo_gris">Negocios</h4>
                             <h4 class="orador_caja fondo_rojo">Startups</h4>
                             <h3 class="orador_name">Ada Lovelace</h3>
                             <div class="tarjeta_parrafo">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga mollitia aut quaerat vitae consectetur
-                                praesentium quae qui dignissimos cupiditate esse pariatur nostrum iste ab, quia, quod aliquid molestiae
-                                soluta?</p>
+                                <p>Ada Lovelace, es una matemática y escritora británica, célebre sobre todo por su trabajo acerca de la computadora mecánica de uso general de Charles Babbage, la denominada máquina analítica.</p>
                             </div>
                         </div>
                     </div>
@@ -101,7 +94,7 @@
 
         </section>
 
-        <section class="section_dividida">
+        <section id="lugaryfecha" class="section_dividida">
 
             <div class="contenido_izq">
 
@@ -110,38 +103,103 @@
 
             <div class="contenido_der">
                 <h3 class="titulo_der" >Bs As - Octubre</h3>
-                <p class="section_parrafo" >
+                <p class="parrafo_der" >
                     Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km de superficie).
                 </p>
-                <a class="section_boton" href="./pages/lugaryfecha.html">Conocé más</a>
-            </div>
+                <div class="padre_boton_der">
+                    <a class="boton_der" href="./pages/comprartickets.html">Conocé más</a>
+                </div>
+                </div>
 
         </section>
         
-        <section>
+        <section id="contacto">
     
-            <form action=""></form>
-
                 <div class="section_titulo" >
                     <h6>CONVIERTETE EN UN</h3>
                     <h2>ORADOR</h2>
                     <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
                 </div>
+            
+                <form>
+                    <div class="form-row d-flex width50">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                      </div>
+                    </div>
+
+                    <div class="form-group width50">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                      </div>
+
+                    <div class="m-auto ">
+                        <p>Recuerda incluir un título para tu charla</p>
+                    </div>
+
+                    <div><input type="submit"></div>
+
+                  </form>
+
+        <footer>
+
+            <ul class="nav justify-content-center bgcolorgradiente altofooter align-content-center mb-3 mt-3">
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Preguntas<br> frecuentes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Prensa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Conferencias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Términos y <br> condiciones</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Privacidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white p-4" href="#">Estudiantes</a>
+                </li>
                 
-                <div>
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Apellido">
-                </div>
+              </ul>
 
-                <div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Sobre qué quieres hablar?"></textarea>
-                </div>
+        </footer>
 
-                    <p>Recuerda incluir un título para tu charla</p>
+                <!-- 
+                <form>
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                      </div>
+                    </div>
+                  </form>
 
-                <div>
-                    <input type="submit">
+                <div class="form_orador">
+                    <div class="form_data">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Apellido">
+                    </div>
+                    <div class="form_text">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="¿Sobre qué quieres hablar?"></textarea>
+                    </div>
+                        <p>Recuerda incluir un título para tu charla</p>
+                    <div>
+                        <input type="submit">
+                    </div>
                 </div>
+            </form>   
+                
 
         </section>
 
@@ -154,6 +212,8 @@
             <a href="">Privacidad</a>
             <a href="">Estudiantes</a>
         </footer>
+
+        -->
         
     </body>
 
