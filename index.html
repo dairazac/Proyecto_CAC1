@@ -9,14 +9,15 @@
         <link rel="shorcut icon" href="favicon.ico">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
+        <script src="./js/bootstrap.bundle.min.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');</style>
     </head>
 
     <body>
-        
-        <header class="header_flex">
+        <!-- 
+            <header class="header_flex">
             <div class="header_logo">
                 <img class="img_logo" src="./assets/imagenes/codoacodo.png" alt="Logo Codo a Codo" loading="lazy">
                 <h2 class="title_logo">Conf Bs As </h2>
@@ -29,7 +30,37 @@
                 <a class="link color_verde" href="./pages/comprartickets.html">Comprar tickets</a>
             </nav>     
         </header>
+        -->
 
+        <nav class="navbar navbar-expand-lg navbar-light bgcolorgris">
+            <div class="container-fluid">
+                <img class="img_logo" src="./assets/imagenes/codoacodo.png" alt="Logo Codo a Codo" loading="lazy">
+                <a class="navbar-brand text-white" href="#">Conf Bs As</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50 " href="#oradores">Los oradores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#lugaryfecha">El lugar y la fecha</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white-50" href="#contacto">Conviértete en orador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Comprar tickets</a>
+                      </li>
+              </div>
+            </div>
+          </nav>
+        
+        
         <main>
             <section class="section_main">
                 <div class="div_main">
@@ -52,7 +83,7 @@
             </div>
             
             <div class="padre_tarjetas">
-                <div class="tarjetas_flex" class="shadow-sm">
+                <div class="tarjetas_flex">
                     <div class="tarjeta">
                         <img class="tarjeta_img" src="./assets/imagenes/steve.jpg" alt="Foto de Steve Jobs" loading="lazy">
                         <div class="tarjeta_contenido">
@@ -118,7 +149,7 @@
                 <div class="section_titulo" >
                     <h6>CONVIERTETE EN UN</h3>
                     <h2 class="fw-bold">ORADOR</h2>
-                    <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+                    <p class="p_contacto">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
                 </div>
             
                 <form>

@@ -10,6 +10,10 @@
     position: fixed;
 }
 
+.bgcolorgris {
+    background-color: #353A40;
+}
+
 .header_logo {
     align-items: center;
     width: 40%;
@@ -19,7 +23,7 @@
 }
 
 .img_logo {
-    width: 25%;
+    width: 10%;
 }
 .title_logo {
     font-size: 1.2rem;
@@ -231,7 +235,7 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
     height: 15vh;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     
     .header_flex{
         flex-direction: column;
@@ -257,4 +261,43 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
         flex-direction: column;
     }
 
+   .tarjetas_flex{
+    flex-direction: column;
+   }  
+
+   .tarjeta {
+    width: 100%;
+   }
+
+   .tarjeta_parrafo {
+    font-size: 1rem;
+   }
+
+   .section_dividida {
+    flex-direction: column;
+   }
+
+   .contenido_izq  {
+    width: 100%;
+    margin: 0;
+   }
+
+   .contenido_der {
+    width: 100%;
+    margin: 0;
+   }
+
+   .titulo_der {
+    margin: auto;
+   }
+
+   .padre_boton_der {
+    margin: auto;
+    padding-bottom: 1rem;
+   }
+
+   .p_contacto {
+    margin: 1.3rem;
+    text-align: center;
+   }
 }
