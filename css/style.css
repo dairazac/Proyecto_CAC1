@@ -302,7 +302,7 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
    }
 
    .altofooter {
-    height: 30vh;
+    height: 20vh;
     flex-wrap: wrap;
     margin: 0 auto;
    }  
