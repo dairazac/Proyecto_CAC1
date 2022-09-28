@@ -124,6 +124,7 @@ h1 {
     width: 30%;
     border: 1px solid rgb(190, 190, 190);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .tarjeta_parrafo {
@@ -267,6 +268,7 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
 
    .tarjeta {
     width: 100%;
+    margin-top: 2rem;
    }
 
    .tarjeta_parrafo {
@@ -275,7 +277,7 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
 
    .section_dividida {
     flex-direction: column;
-    height: 80vh;
+    height: 100vh;
    }
 
    .contenido_izq  {
@@ -324,6 +326,26 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
 
    .parrafo_der {
     font-size: large;
+   }
+
+   .h1_main {
+    font-size:3rem;
+   }
+
+   .p_main {
+    font-size: 1.2rem;
+   }
+
+   .img_logo {
+    width: 40%;
+   }
+
+   .boton_der{
+    font-size: 1.2rem;
+   }
+
+   .navbar-brand {
+    font-size: 1.2rem;
    }
 }
 
