@@ -300,4 +300,10 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
     margin: 1.3rem;
     text-align: center;
    }
+
+   .altofooter {
+    height: 30vh;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   }  
 }
