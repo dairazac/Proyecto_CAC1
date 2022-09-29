@@ -54,7 +54,7 @@
     justify-content: flex-end;
     flex-direction: column;
     position: absolute;
-    top: 370px; left: 550px;
+    top: 370px; left: 650px;
     z-index: 100;
     color: white;
     text-align: end;
@@ -291,8 +291,8 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
     }
 
     .botones_main {
-        display: flex;
-        flex-direction: column;
+        margin-right: auto;
+        margin-left:auto;
     }
 
    .tarjetas_flex{
