@@ -253,6 +253,10 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
     height: 15vh;
 }
 
+.card-tickets {
+    padding: 0%;
+}
+
 @media screen and (max-width:576px) {
     
     .header_flex{
