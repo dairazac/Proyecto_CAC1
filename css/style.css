@@ -270,9 +270,14 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
         padding: initial;
     }
 
+    .carousel_absolute {
+        position: absolute;
+    }
+
     .div_main {
+        position: relative;
         font-size: 0.8rem;
-        top:370px;
+        top:50px;
         left: 0px;
     }
 
