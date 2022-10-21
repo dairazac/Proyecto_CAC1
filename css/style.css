@@ -269,6 +269,7 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
     padding: 1rem;
 }
 
+
 @media screen and (max-width:576px) {
     
     .header_flex{
@@ -375,7 +376,7 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
    }
 
    .width50 {
-    width: 70%;
+    width: 85%;
    }
 
    .parrafo_der {
@@ -396,6 +397,16 @@ background: linear-gradient(90deg,#1c3846 0%, #1f5271 80%);
 
    .navbar-brand {
     font-size: 1.2rem;
+   }
+
+   .cards_tickets {
+    height: 30vh;
+    font-size: small;
+    margin: 0.3rem;
+   }
+
+   .card_ticket_title {
+    font-size: 1rem;
    }
 }
 
