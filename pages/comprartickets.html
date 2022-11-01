@@ -83,28 +83,29 @@
       <form>
         <div class="form-row d-flex width50">
           <div class="my-2 me-1 col">
-            <input type="text" class="form-control" placeholder="Nombre">
+            <input id="nombre" type="text" class="form-control" placeholder="Nombre">
           </div>
           <div class="my-2 ms-1 col">
-            <input type="text" class="form-control" placeholder="Apellido">
+            <input id="apellido" type="text" class="form-control" placeholder="Apellido">
           </div>
         </div>
         <div class="my-2 col width50">
-          <input type="text" class="form-control" placeholder="Email">
+          <input id="email" type="text" class="form-control" placeholder="Email">
         </div>
 
         <div class="form-row d-flex width50">
           <div class="my-1 me-1 col">
             <h6 class="fs-6">Cantidad</h6>
-            <input type="text" class="form-control" placeholder="Cantidad">
+            <input id="cantidad" type="text" class="form-control" placeholder="Cantidad">
           </div>
           <div class="my-1 ms-1 col">
             <h6 class="fs-6">Categoría</h6>
-            <select class="form-select" aria-label="Default select example">
-              <option selected>-- Seleccione --</option>
-              <option value="1">Estudiante</option>
-              <option value="2">Trainee</option>
-              <option value="3">Junior</option>
+            <select id="selector" class="form-select" aria-label="Default select example">
+              <option value="0" selected>-- Seleccione --</option>
+              <option value="1">Sin categoria</option>
+              <option value="2">Estudiante</option>
+              <option value="3">Trainee</option>
+              <option value="4">Junior</option>
             </select>
           </div>
         </div>
@@ -114,8 +115,8 @@
             <label for="exampleFormControlTextarea1"></label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Total a pagar: $"></textarea>
             <div class="d-flex justify-content-between my-3">
-              <button type="button" class="btn btn-primary btn-lg w-100 mx-1">Borrar</button>
-              <button type="button" class="btn btn-primary btn-lg w-100 mx-1">Resumen</button>
+              <button id="btnBorrar" type="button" class="btn btn-success btn-lg w-100 mx-1">Borrar</button>
+              <button id="btnResumen" type="button" class="btn btn-success btn-lg w-100 mx-1">Resumen</button>
             </div>
         </div>
 
@@ -152,6 +153,7 @@
 
     </footer>
 
+      <script src="../js/main.js"></script>
       <script src="../js/bootstrap.bundle.min.js"></script>
     
 </body>
