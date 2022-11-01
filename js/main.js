@@ -9,6 +9,7 @@ let apellido = document.getElementById("apellido");
 let email = document.getElementById("email");
 let cantidad = document.getElementById("cantidad");
 let selectorcategoria = document.getElementById("selector");
+let exampleFormControlTextarea1 = document.getElementById("exampleFormControlTextarea1");
 
 function totalAPagar(){
 
@@ -28,13 +29,7 @@ function totalAPagar(){
         email.classList.add("is-invalid");
         alert("Escriba su email");
         return;
-    }
-
-    else if (email.value === "") {
-        email.classList.add("is-invalid");
-        alert("Escriba su apellido");
-        return;
-    }    
+    } 
 
     else if ( (cantidad.value == 0) || (isNaN(cantidad.value)) ) {
         cantidad.classList.add("is-invalid");
@@ -67,6 +62,8 @@ function totalAPagar(){
     }
 
     console.log(precioTotal);
+
+    exampleFormControlTextarea1.innerHTML = precioTotal;
 }
 
 
