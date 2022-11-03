@@ -63,7 +63,11 @@ function totalAPagar(){
 
     console.log(precioTotal);
 
-    exampleFormControlTextarea1.innerHTML = precioTotal;
+    exampleFormControlTextarea1.innerHTML = "Total a pagar: $" + precioTotal;
+}
+
+function quitarClaseError () {
+    
 }
 
 
