@@ -66,11 +66,22 @@ function totalAPagar(){
     exampleFormControlTextarea1.innerHTML = "Total a pagar: $" + precioTotal;
 }
 
-function quitarClaseError () {
-    
+function quitarClaseError() {
+    let x = document.querySelectorAll(".form-control, .form-select");
+    let i;
+        for ( i=0; i < x.length; i++) {
+            x[i].classList.remove("is-invalid");
+        }
+}
+
+function resetTotalAPagar() {
+    quitarClaseError();
+    exampleFormControlTextarea1.innerHTML = "Total a pagar: $";
+
 }
 
 
 
-btnResumen.addEventListener('click', totalAPagar)
+btnResumen.addEventListener('click', totalAPagar);
+btnBorrar.addEventListener('click', resetTotalAPagar);
 
